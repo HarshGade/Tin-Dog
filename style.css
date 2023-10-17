@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #27005D; */
+}
+
+
+
+.container{
+    height: 500px;
+    background-color: #27005D;
+  
+}
+
+
+.navbar ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    padding:30px 20px;   
+}
+ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 5px 7px;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: white;
+   
+}
+
+
+
+.content{
+    display: flex;
+    align-items: end;
+}
+
+.intro{
+    height: 200px;
+    width: 40%;
+    margin: 8% 13%;
+    font-size: 1.5rem;
+    /* border: 1px solid white; */
+    color: white; 
+}
+.intro button{
+    height: 15%;
+    padding: 5px 15px;
+    margin: 4% 6%;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+button:hover{
+    background-color:#27005D;
+    color: white;
+}
+
+
+/* Services-Container styling */
+
+ .services-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding:  10px 10px;
+    margin: 25px 10px 10px 10px;
+    
+ }
+ .services{
+    height: 150px;
+    width: 350px;
+    /* border: 1px solid black; */
+    margin: 10px 10px;
+    padding: 10px 10px;
+ }
+ .services h2{
+    padding: 10px 0px;
+    font-style: italic;
+ }
+ .services p{
+    margin: 0px 30px;
+    font-style: italic;
+    
+ }
+
+
+
+ /* Companies Section styling  */
+ .companies-section{
+    background-color: rgb(235, 227, 227);
+    height: 450px;
+    text-align: center;
+ }
+ .companies-section h2{
+    font-size: 1.9rem;
+    font-style: italic;
+    padding: 50px 0px 10px 0px;
+ }
+ .dog-image{
+    height: 150px;
+    width: 150px;
+    margin: 20px 0px 5px 0px;
+ }
+ .companies-section p{
+    font-size: 1.5rem;
+    font-style: italic;
+ }
+
+ .companies{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .tech-crunch{
+    color: green;
+ }
+ .mashable{
+    color: rgb(15, 151, 235);
+ }
+ .bussiness-insider{
+    color: gray;
+ }
+ .punr-hub{
+    color: orangered;
+ }
+
+
+
+ /* plan container styling*/
+
+ .plan-container{
+    height: 500px;
+    background-color: white;
+    text-align: center;
+ }
+ .plan-container h3{
+    padding: 30px 10px;
+    font-style: italic;
+    font-size: 3rem;
+ }
+ 
+.planprice{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 30px 0px 5px 0px;
+}
+ .box{
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    margin: 10px 0px;
+ }
+
+ .heading{
+   background-color: rgb(221, 211, 211);
+   border: 1px solid black;
+   font-style: italic;
+   padding:5px 5px;
+ }
+ .price{
+   margin: 10px 0px 5px 0px;
+ }
+ .features {
+   margin-top: 10px;
+ }
+ .features p{
+   padding: 3px 5px;
+   font-style: italic;
+ }
+
+ .box button{
+   margin: 18px 0px;
+   padding: 10px 10px;
+   font-size: 1.2rem;
+   height: 3rem;
+   width: 89%;
+   background-color: rgb(221, 211, 211);
+   color: rgb(6, 6, 6);
+   border: 1px solid  rgb(221, 211, 211) ;
+   border-radius: 8px;
+ }
+
+ .box button:hover{
+   background-color: white;
+   color: black;
+   border: 1px solid whitesmoke;
+ }
+
+
+ /* footer-section styling */
+
+.footer-section{
+   height: 350px;
+   background-color: #27005D;
+   color: white;
+   display: flex;
+   /* justify-content: space-between; */
+}
+.section1{
+   height: 100px;
+   width: 200px;
+   margin: 80px 0px 10px 100px;
+   padding:10px 10px;
+   /* border: 1px solid white; */
+   font-size: 1.5rem;
+}
+.section2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 100px;
+}
+.sub-section{
+   height: 250px;
+   width: 200px;
+   /* border: 1px solid white; */
+   margin: 10px  30px;
+   text-align: center;
+}
+.sub-section h3{
+   padding: 30px 0px;
+   font-size: 1.5rem;
+}
+.sub-section li{
+   padding: 10px 0px;
+   list-style: none;
+   color: white;
+   
+}
+
+
+
+/*        SIGN UP PAGE STYLING       */
+
+.sign-up-container{
+   background-color: #27005D;
+   /* height: 650px; */
+   height: 100vh;
+}
+
+.sign-up-navbar ul{
+   display: flex;
+}
+ul li {
+   list-style: none;
+   padding:30px 20px;   
+}
+ul li a {
+   color: white;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.2rem;
+   margin: 5px 7px;
+}
+ul li a:hover{
+   text-decoration: underline;
+   color: white;
+  
+}
+
+.sign-up-page{
+   background-color: #27005D;
+   /* height: 100%; */
+}
+
+.form-box{
+   width:25% ;
+   background-color: #ffffff83;
+   position: absolute;
+   top: 30%;
+   left: 35%;
+   padding: 50px 50px 50px 50px;
+   text-align: center;
+}
+
+.form-box h1{
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-bottom: 20px ;
+     color: #27005D;
+    /* border-bottom: 3px solid #27005D; */
+    
+}
+
+.input-field{
+   margin: 15px 0;
+   border-radius: 3px;
+   display: flex;
+   align-items: center;
+}
+
+input{
+   width: 100%;
+   background:transparent ;
+   border: 0;
+   outline: 0;
+   padding: 15px 15px;
+   color: white;
+}
+
+ .buttons{
+   display: flex;
+   justify-content: space-evenly;
+ }
+.btn-1{
+   height: 36px;
+   width: 116px;
+   border: 2px solid #27005D;
+   border-radius: 62px;
+   padding: 6px 8px;
+   color: white;
+   background-color: #27005D;
+}
+.btn-2{
+   height: 36px;
+   width: 116px;
+   border: 2px solid #27005D;
+   border-radius: 62px;
+   padding: 6px 8px;
+   color: white;
+   background-color: #27005D;
+}
+
+
+/* Contact Page Styling */
+
+.contact-container{
+   background-color: #27005D;
+   /* height: 650px; */
+   height: 100vh;
+   width: 100%;
+}
+
+
+.contact-navbar ul{
+   display: flex;
+}
+ul li {
+   list-style: none;
+   padding:30px 20px;   
+}
+ul li a {
+   color: white;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.2rem;
+   margin: 5px 7px;
+}
+ul li a:hover{
+   text-decoration: underline;
+   color: white;
+  
+}
+
+.contact-box{
+   width:25% ;
+   background-color: #ffffff83;
+   position: absolute;
+   top: 25%;
+   left: 35%;
+   padding: 50px 50px 50px 50px;
+   text-align: center;
+}
+
+.contact-box h1{
+   color: #27005D;
+   font-size: 2.3rem;
+   padding: 10px 0px;
+}
+
+
+.contact-box p{
+   font-size:1.2rem;
+   font-weight: bold;
+   color: #27005D;
+   padding: 10px 10px;
+}
+
+.contact-input-box input{
+   color: black;
+
+}
+
+.contact-button{
+   height: 37px;
+   width: 170px;
+   padding: -2px 5px;
+   border: 2px solid #27005D;
+   border-radius: 21px;
+   background-color: #27005D;
+   color: white;
+    
+}
+
+
+
+ /* ABOUT PAGE STYLING  */
+
+ .about-container{
+   height: 100vh;
+   width: 100%;
+   background-color: #27005D;
+ }
+
+
+.about-navbar ul{
+   display: flex;
+}
+ul li {
+   list-style: none;
+   padding:30px 20px;   
+}
+ul li a {
+   color: white;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.2rem;
+   margin: 5px 7px;
+}
+ul li a:hover{
+   text-decoration: underline;
+   color: white;
+  
+}
+
+.about-content{
+   width: 80%;
+    margin: 3rem auto; /* giving width and margin its center  */
+   /* border: 2px solid white;   */
+   text-align: center;
+   font-family: sans-serif;
+}
+.about-content h1{
+   font-size: 3rem;
+   color: #fff;
+   padding: 10px 10px;
+}
+.about-content h3 {
+   font-size: 1.5rem;
+   font-weight: normal;
+   margin-bottom: 3rem;
+   color: #fff;
+}
+.about-flex-container{
+   display: flex;
+   justify-content: center;
+   gap: 6rem;
+   margin: 80px 10px;
+   /* align-items: center; */
+}
+.about-box1 img{
+   height: 230px;
+   width: 300px;
+}
+
+.about-box2{
+   width: 50%;
+}
+.about-box2 h2{
+   font-size: 2rem;
+   font-weight: normal;
+   padding: 10px 0px;
+   color: #fff;
+}
+.about-box2 p{
+   font-size: 17px;
+   text-align: left;
+   color: #fff;
+}
+.about-box2 button {
+   height: 15%;
+    padding: 5px 15px;
+    margin: 6% 6%;
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+}
+
+.about-box2 button:hover{
+   background-color:#27005D;
+    color: white;
+}
+
+
+
+/* DOGS BREED PAGE  STYLING  */
+
+
+.breeds-container{
+   background-color: #27005D;
+   /* height: 650px; */
+   height: 100%;
+   width: 100%;
+}
+
+
+.navbar ul{
+   display: flex;
+}
+ul li {
+   list-style: none;
+   padding:30px 20px;   
+}
+ul li a {
+   color: white;
+   list-style: none;
+   text-decoration: none;
+   font-size: 1.2rem;
+   margin: 5px 7px;
+}
+ul li a:hover{
+   text-decoration: underline;
+   color: white;
+  
+}
+
+.breeds-content{
+   height: 300px;
+   width: 90%;
+   margin: 5% auto;
+   /* border: 2px solid white; */
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.text-content h1{
+   font-family: sans-serif;
+   font-size: 3rem;
+   color: white;
+}
+span {
+   color:#a98ad3 ;
+}
+.image-content img{
+   height: 300px;
+   width: 350px;
+}
+
+.breeds-categories{
+   /* height: 100px; */
+   /* width:96%; */
+   margin: auto; 
+   padding: 50px 0px; 
+   text-align: center;
+   background-color: #7656a3;
+}
+
+.breeds-categories h1{
+   font-family: sans-serif;
+   font-size: 2.5rem;
+   color: #fff;
+}
+
+.breeds-categories p{
+   font-family: sans-serif;
+   font-size: 1.2rem;
+   font-weight: bold;
+   padding: 8px 0px;
+}
+.first-row{
+   display: flex;
+   justify-content: space-around;
+   padding: 35px 10px;
+}
+.second-row{
+   display: flex;
+   justify-content: space-around;
+   padding: 50px 10px;
+}
+
+.images{
+   width: 30%;
+}
+
+.images img{
+    height: 200px;
+    width: 300px;
+}
+
+.images h2{
+   font-size: 2rem;
+   padding: 7px 0px;
+   font-family: sans-serif;
+   color: #d3cccc;
+}
+
+.images p{
+   color: #00000088;
+}
+
+
+
+
